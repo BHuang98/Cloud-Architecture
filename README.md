@@ -47,6 +47,24 @@ Step 5: Set Up Azure SQL Database (or MySQL)
 
 
 
+Step 6: Set Up a Load Balancer for Web VMs
+1) Create the Load Balancer:
+![image](https://github.com/user-attachments/assets/e8a9d738-ec9c-472f-bd4c-e41597b0befc)
+
+2) Create A public IP for the Load balancer
+![image](https://github.com/user-attachments/assets/6f82f8a3-16c4-487b-ac7a-16454ef5f6d5)
+
+3) Add Web VMs to the Backend Pool:
+![image](https://github.com/user-attachments/assets/1b7c7c0f-07cd-4866-869e-17f03f10ab23)
+
+4) Configure the Load Balancer with a Health Probe:
+Health probes are used to check the status of a backend pool instance. If the health probe fails to get a response from a backend instance then no new connections will be sent to that backend instance until the health probe succeeds again.
+![image](https://github.com/user-attachments/assets/21546248-543c-4e78-ae59-078500fe7fbe)
+
+5) Create Load Balance rule to distribute traffic
+![image](https://github.com/user-attachments/assets/0b4ab6d8-2c4a-4428-9fa0-6361d2aedde7)
+
+
 
 
 
