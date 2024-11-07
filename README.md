@@ -43,10 +43,6 @@ Step 5: Set Up Azure SQL Database (or MySQL)
 1) Create an Azure Database for MySQL server:
 ![image](https://github.com/user-attachments/assets/7c45a484-d61d-469a-849c-65a19f1ee870)
 
-2) Add firewall rule to allow AppVM to communicate to DB
-
-
-
 Step 6: Set Up a Load Balancer for Web VMs
 1) Create the Load Balancer:
 ![image](https://github.com/user-attachments/assets/e8a9d738-ec9c-472f-bd4c-e41597b0befc)
